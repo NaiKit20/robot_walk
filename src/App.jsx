@@ -4,7 +4,7 @@ import { useRef } from "react";
 import { useState } from 'react';
 import Button from '@mui/material/Button';
 
-function App() {
+function App() { // deploy https://ogs-exam.web.app/
   const inputRef = useRef(null);
 
   const [n, setN] = useState(0);
